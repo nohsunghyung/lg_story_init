@@ -1,0 +1,28 @@
+// 기본 셋팅
+$body-base-font: 'NotoSansKR', arial, sans-serif, Arial, dotum, '돋움';
+$body-font-color: #000;
+$base-font-size: 18px;
+$line-height: 1.5;
+
+// base color
+$primary: #2546cd;
+$dark: #222;
+$warning: #ff9582;
+$slightly: #888;
+$lightSlightly: #999;
+$danger: #e0012b;
+
+// point color
+$blue: #a0afc1;
+
+// 미디어쿼리 사이즈
+$tb-l: 1320px;
+$tb-s: 1100px;
+$mo-l: 720px;
+$mo-s: 400px;
+
+// 이미지 url
+$baseUrl: '../images/';
+
+// 공통레이아웃 사이즈
+$layoutSize: 1200px;

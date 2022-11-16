@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+/*============================================================
+font style
+============================================================*/
+/* font family : Noto Sans Korean
+============================================================*/
+@font-face {
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Noto Sans Light"), local("NotoSans-Light"),
+    url("../fonts/NotoSansKR-Light.eot"),
+    url("../fonts/NotoSansKR-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/NotoSansKR-Light.woff2") format("woff2"),
+    url("../fonts/NotoSansKR-Light.woff") format("woff")
+}
+@font-face {
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Noto Sans Regular"), local("NotoSans-Regular"),
+    url("../fonts/NotoSansKR-Regular.eot"),
+    url("../fonts/NotoSansKR-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/NotoSansKR-Regular.woff2") format("woff2"),
+    url("../fonts/NotoSansKR-Regular.woff") format("woff")
+}
+@font-face {
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Noto Sans Medium"), local("NotoSans-Medium"),
+    url("../fonts/NotoSansKR-Medium.eot"),
+    url("../fonts/NotoSansKR-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/NotoSansKR-Medium.woff2") format("woff2"),
+    url("../fonts/NotoSansKR-Medium.woff") format("woff")
+}
+@font-face {
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Noto Sans Bold"), local("NotoSans-Bold"),
+    url("../fonts/NotoSansKR-Bold.eot"),
+    url("../fonts/NotoSansKR-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/NotoSansKR-Bold.woff2") format("woff2"),
+    url("../fonts/NotoSansKR-Bold.woff") format("woff")
+}
+@font-face {
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    font-weight: 900;
+    src: local("Noto Sans Black"), local("NotoSans-Black"),
+    url("../fonts/NotoSansKR-Black.eot"),
+    url("../fonts/NotoSansKR-Black.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/NotoSansKR-Black.woff2") format("woff2"),
+    url("../fonts/NotoSansKR-Black.woff") format("woff")
+}
+
+/*============================================================
+common layout
+============================================================*/
+h1, h2, h3, h4, h5, h6, p, figure, img, dl, dt, dd {
+	padding: 0;
+	margin: 0;
+}
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+figure {
+    font-size: 0;
+}
+img {
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+	width: 100%;
+	border: 0;
+}
+/* lge share box
+============================================================*/
+.lgestg-sns-box {
+    padding: 20px 0;
+    text-align: right;
+    background-color: #fff; /* 콘텐츠 배경색과 동일하게 맞춰주세요. */
+}
+.lgestg-sns-box .grid {
+    margin: 0 auto;
+    max-width: 1284px;
+    min-height: inherit;
+}
+
+@media screen and (max-width: 575.98px) {
+    .lgestg-sns-box {
+        padding: 20px 20px 4px 20px;
+    }
+}
+
+/*============================================================
+1. 여기서부터 local css 파일을 그대로 복사해서 붙여 넣어주세요.
+2. 이미지 url 경로는 실서버 경로 기준으로 모두 수정해주셔야 합니다.
+"../img/[콘텐츠 고유 url 폴더명]/[이미지 파일명]"
+(ex) ../img/goldstar-arcade/gsarcade-detail-background-mo.png
+============================================================*/

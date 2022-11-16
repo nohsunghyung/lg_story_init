@@ -1,0 +1,43 @@
+// 폰트
+@import './settings/_font';
+// 초기셋팅
+@import './settings/_config';
+// functions
+@import './utils/functions/functions';
+// mixin
+@import './utils/mixin/_blind';
+@import './utils/mixin/_boxsizing';
+@import './utils/mixin/_placeholder';
+@import './utils/mixin/_clearfix';
+@import './utils/mixin/_ellipsis';
+@import './utils/mixin/_size';
+@import './utils/mixin/_background';
+@import './utils/mixin/_vw';
+@import './utils/mixin/_centerMode';
+// 리셋파일
+@import './settings/_reset';
+// 애니메이션
+@import './settings/_animation';
+
+/* lge share box
+============================================================*/
+.lgestg-sns-box {
+  padding: 20px 0;
+  text-align: right;
+  background-color: #fff;
+}
+.lgestg-sns-box .grid {
+  margin: 0 auto;
+  max-width: 1284px;
+  min-height: inherit;
+}
+
+@media screen and (max-width: 575.98px) {
+  .lgestg-sns-box {
+    padding: 20px 20px 4px 20px;
+  }
+}
+
+/*============================================================
+여기서부터 자유롭게 코딩해주세요. 페이지의 id값을 준후에 css작업해주세요. ex) #lg-note-program .header {}
+============================================================*/
