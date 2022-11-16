@@ -4,9 +4,131 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>LG전자 스토리</title>
   </head>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+    .publish-gate-content {
+      width: 1600px;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 1620px) {
+      .publish-gate-content {
+        width: 100%;
+        padding: 0 12px;
+      }
+    }
+
+    .publish-gate-content h1 {
+      margin: 20px 0;
+      text-align: center;
+      font-size: 42px;
+      font-weight: bold;
+    }
+
+    .publish-gate-content .component-item + .component-item {
+      margin-top: 40px;
+    }
+
+    .publish-gate-content .content-title {
+      margin-bottom: 20px;
+      padding-left: 10px;
+      position: relative;
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    .publish-gate-content .content-title:before {
+      display: block;
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 3px;
+      height: 15px;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      background-color: #000;
+    }
+    .publish-gate-content .table-wrapper {
+      overflow: auto;
+    }
+    .publish-gate-content .project-file-list .table-wrapper {
+      margin-top: 12px;
+    }
+    .publish-gate-content .project-file-list table {
+      width: 100%;
+      min-width: 900px;
+      table-layout: fixed;
+    }
+    .publish-gate-content .project-file-list table th,
+    .publish-gate-content .project-file-list table td {
+      padding: 8px 10px;
+      font-size: 15px;
+      border: 1px solid #eee;
+    }
+    .publish-gate-content .project-file-list table th {
+      text-align: center;
+      background-color: #222;
+      color: #fff;
+    }
+    .publish-gate-content .project-file-list table td {
+      text-align: center;
+      min-height: 46.5px;
+    }
+    .publish-gate-content .project-file-list table td.depth-01 {
+      font-weight: bold;
+    }
+    .publish-gate-content .project-file-list table .file-link {
+      text-decoration: underline;
+      color: #009aff;
+      font-size: 14px;
+    }
+    .publish-gate-content .font-point {
+      color: #009aff;
+    }
+
+    .publish-gate-content .font-class {
+      color: #de3394;
+    }
+  </style>
   <body>
-    html폴더내의 파일명으로 이동
+    <div class="content publish-gate-content">
+      <h1>LG전자 스토리</h1>
+
+      <div class="component-item project-file-list">
+        <h2 class="content-title">작업 리스트</h2>
+        <div class="table-wrapper">
+          <table>
+            <colgroup>
+              <col style="width: 25%" />
+              <col style="width: 25%" />
+              <col />
+            </colgroup>
+            <thead>
+              <tr>
+                <th>1 Depth</th>
+                <th>2 Depth</th>
+                <th>파일명(link)</th>
+              </tr>
+              <tr class="check-list-item">
+                <td class="depth-01">프로젝트명</td>
+                <td></td>
+                <td><a href="./html/파일명은url주소로.html" class="file-link" target="blank">파일명은url주소로.html</a></td>
+              </tr>
+            </thead>
+          </table>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
