@@ -144,6 +144,14 @@ button:focus { outline: none; }
 
 .shake-horizontal { -webkit-animation: shake-horizontal 0.6s cubic-bezier(0.455, 0.03, 0.515, 0.955) both; animation: shake-horizontal 0.6s cubic-bezier(0.455, 0.03, 0.515, 0.955) both; }
 
+.accordion-list .accordion-header { cursor: pointer; }
+
+.accordion-list .accordion-body { display: none; }
+
+.ui-tab-content { display: none; }
+
+.ui-tab-content:nth-of-type(1) { display: block; }
+
 /* lge share box
 ============================================================*/
 .lgestg-sns-box { padding: 20px 0; text-align: right; background-color: #fff; }

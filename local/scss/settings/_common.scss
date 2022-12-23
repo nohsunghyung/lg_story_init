@@ -1,0 +1,17 @@
+// 아코디언
+.accordion-list {
+  .accordion-header {
+    cursor: pointer;
+  }
+  .accordion-body {
+    display: none;
+  }
+}
+
+// 탭컨텐츠
+.ui-tab-content {
+  display: none;
+  &:nth-of-type(1) {
+    display: block;
+  }
+}
