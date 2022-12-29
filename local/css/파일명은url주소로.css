@@ -167,13 +167,6 @@ img[usemap] { border: none; height: auto; max-width: 100%; width: auto; }
 @media (max-width: 1320px) { .pc-show { display: none !important; }
   .mobile-show { display: block !important; } }
 
-/* 
-ex) .container {
-  @include _background('icon/icon.png');
-}
-/*
-
-
 /*============================================================
 // 위 import 파일들은 모든 프로젝트의 공통이므로 파일을 직접 수정하지말고 아래 프로젝트별로 작업해주세요.
 여기서부터 자유롭게 코딩해주세요. 페이지의 id값을 준후에 css작업해주세요. ex) #lg-note-program .header {}
