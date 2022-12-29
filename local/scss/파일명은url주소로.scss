@@ -21,8 +21,6 @@
 // 공통
 @import './settings/_common';
 
-// !!!!! 위 파일들은 모든 프로젝트의 공통이므로 파일을 직접 수정하지말고 아래 프로젝트별로 작업해주세요.
-
 /* lge share box
 ============================================================*/
 .lgestg-sns-box {
@@ -42,6 +40,36 @@
   }
 }
 
+// 미디어쿼리 사이즈
+$tb-l: 1320px;
+$tb-s: 1100px;
+$mo-l: 720px;
+$mo-s: 400px;
+
+// 모바일,pc 구분
+.mobile-show {
+  display: none !important;
+}
+@media (max-width: $tb-l) {
+  .pc-show {
+    display: none !important;
+  }
+  .mobile-show {
+    display: block !important;
+  }
+}
+// 프로젝트의 이름
+$projectName: '프로젝트명';
+// 이미지 url
+$baseUrl: '../img/' + $projectName + '/';
+/* 
+ex) .container {
+  @include _background('icon/icon.png');
+}
+/*
+
+
 /*============================================================
+// 위 import 파일들은 모든 프로젝트의 공통이므로 파일을 직접 수정하지말고 아래 프로젝트별로 작업해주세요.
 여기서부터 자유롭게 코딩해주세요. 페이지의 id값을 준후에 css작업해주세요. ex) #lg-note-program .header {}
 ============================================================*/

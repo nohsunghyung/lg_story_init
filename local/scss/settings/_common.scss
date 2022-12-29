@@ -15,3 +15,11 @@
     display: block;
   }
 }
+
+// 이미지맵
+img[usemap] {
+  border: none;
+  height: auto;
+  max-width: 100%;
+  width: auto;
+}
