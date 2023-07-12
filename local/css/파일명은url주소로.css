@@ -11,7 +11,7 @@
 /* rem 설정을 위한 폰트 */
 html { font-size: 18px; }
 
-body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select, pre { -webkit-text-size-adjust: none; letter-spacing: -0.03em; line-height: 1.5; font-weight: 400; color: #000; font-family: "NotoSansKR", arial, sans-serif, Arial, dotum, "돋움"; font-size: 18px; outline: none; }
+body, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select, pre { -webkit-text-size-adjust: none; letter-spacing: -0.03em; line-height: 1; font-weight: 400; color: #000; font-family: "NotoSansKR", arial, sans-serif, Arial, dotum, "돋움"; font-size: 18px; outline: none; }
 
 /*-webkit-text-size-adjust: none(글자크기 자동조정 방지) , auto (화면의 폭에 맞추어서 텍스트의 크기를 자동으로 조절 , 100%(폰트크기를 지정된사이즈로 변경);*/
 html, body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, table, tr, td, dl, dt, dd, a, img, input, button, select, textarea { margin: 0px; padding: 0px; list-style: none; }
@@ -22,12 +22,12 @@ address, cite, dfn, em, var { font-style: normal; }
 
 code, kbd, samp { font-family: dotum, '돋움', courier new, courier, monospace; }
 
-header, hgroup, article, nav, footer, figure, figcaption, canvas, section, main, menu { display: block; margin: 0; padding: 0; }
+header, hgroup, article, nav, figure, figcaption, canvas, section, main, menu { display: block; margin: 0; padding: 0; }
 
 /* 모바일에서 꾹 눌렀을때 텍스트 복사 막기 */
 body, div, p, ul, li, input, h1, h2, h3, h4, h5, h6, dl, dt, dd, a, select, textarea { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-a { text-decoration: none; color: #000; }
+a { text-decoration: none; }
 
 img, fieldset, iframe { border: 0 none; }
 
@@ -170,4 +170,5 @@ img[usemap] { border: none; height: auto; max-width: 100%; width: auto; }
 /*============================================================
 // 위 import 파일들은 모든 프로젝트의 공통이므로 파일을 직접 수정하지말고 아래 프로젝트별로 작업해주세요.
 여기서부터 자유롭게 코딩해주세요. 페이지의 id값을 준후에 css작업해주세요. ex) #lg-note-program .header {}
+!!주의사항 - 위 .lgestg-sns-box 배경색을 키비주얼 배경과 동일하게 넣어주세요
 ============================================================*/
